@@ -1,0 +1,20 @@
+import React from 'react';
+import { StyleSheet, Text, View} from 'react-native';
+import SignupLoginScreen from './screens/SignupLoginScreen';
+import HomeScreen from './screens/HomeScreen';
+import Exchange from './screens/Exchange';
+
+export default function App() {
+  return (
+    <SignupLoginScreen/>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
